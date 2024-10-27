@@ -1,0 +1,5 @@
+pandas
+groq
+textstat
+matplotlib.pyplot
+seaborn
