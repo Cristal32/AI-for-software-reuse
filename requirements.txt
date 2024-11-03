@@ -1,5 +1,2 @@
-pandas
+streamlit
 groq
-textstat
-matplotlib.pyplot
-seaborn
