@@ -1,3 +1,3 @@
 venv
 config.json
-_pycache_
+streamlit_app/__pycache__

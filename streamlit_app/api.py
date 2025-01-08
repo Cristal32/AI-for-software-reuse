@@ -3,7 +3,7 @@ import pandas as pd
 from groq import Groq
 
 # Load API keys from config.json
-with open("../config.json") as f:
+with open("config.json") as f:
     config = json.load(f)
 
 def call_groq_model(model_name, prompt):
