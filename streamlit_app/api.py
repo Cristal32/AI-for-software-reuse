@@ -17,9 +17,9 @@ def call_groq_model(model_name, prompt):
       messages=[
           {
               "role": "user",
-              "content": ("Analyse the code, fix any issues with it, "
+              "content": ("Analyse the code, if there is any comment asking to implement a method, implement it. Otherwise, fix any issues with it, "
                     "and propose solutions to avoid boilerplate code by implementing reusable code if possible. "
-                    "Return only the refactored code:\n" + prompt)
+                    "Return only the refactored code between ``` symbols and don't send any other text:\n" + prompt)
           }
       ],
       temperature=1,

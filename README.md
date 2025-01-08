@@ -1,22 +1,26 @@
 # AI for software reuse
 
-To execute the app, run the followign commands:
-1. Activate the virtual environment:
+To execute the app, run the following commands:
+1. Create a virtual environment:
+```
+python -m venv venv
+```
+2. Activate the virtual environment:
 ```
 .\venv\Scripts\activate
 ```
 
-2. Install dependencies
+3. Install dependencies
 ```
 pip install -r requirements.txt
 ```
 
-3. Run the Streamlit app
+4. Run the Streamlit app
 ```
 streamlit run streamlit_app/app.py
 ```
 
-4. When done, deactivate the virtual environment
+5. When done, deactivate the virtual environment
 ```
 deactivate
 ```
