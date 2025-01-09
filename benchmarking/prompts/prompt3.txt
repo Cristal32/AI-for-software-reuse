@@ -1,0 +1,9 @@
+# File 8: Unoptimized database query and hardcoded values
+def fetch_users():
+    query = "SELECT * FROM users WHERE age > 30"
+    db_result = database.execute(query)
+    return db_result
+
+def insert_user(name, age):
+    query = f"INSERT INTO users (name, age) VALUES ('{name}', {age})"
+    database.execute(query)

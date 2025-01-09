@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "code": "def add(a, b): return a + b",
+        "description": "Fonction simple pour additionner deux nombres",
+        "tags": [
+            "python",
+            "addition",
+            "simple"
+        ]
+    },
+    {
+        "id": 2,
+        "code": "def multiply(a, b): return a * b",
+        "description": "Fonction simple pour multiplier deux nombres",
+        "tags": [
+            "python",
+            "multiplication",
+            "simple"
+        ]
+    },
+    {
+        "id": 3,
+        "code": "def find_max(a, b):\n    if a > b:\n        return a\n    elif b > a:\n        return b",
+        "description": "Function to find maximum of two numbers",
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "id": 4,
+        "code": "def merge_sorted_lists(list1, list2):\n    return sorted(list1 + list2)",
+        "description": "Fusionne deux listes en une seule liste triée."
+    },
+    {
+        "id": 5,
+        "code": "def quicksort(arr):\n    if len(arr) <= 1:\n        return arr\n    pivot = arr[len(arr) // 2]\n    left = [x for x in arr if x < pivot]\n    middle = [x for x in arr if x == pivot]\n    right = [x for x in arr if x > pivot]\n    return quicksort(left) + middle + quicksort(right)",
+        "description": "Trie une liste en utilisant l'algorithme QuickSort."
+    },
+    {
+        "id": 6,
+        "code": "def filter_by_value(d, threshold):\n    return {k: v for k, v in d.items() if v > threshold}",
+        "description": "Filtre les paires clé-valeur d'un dictionnaire par un seuil donné."
+    },
+    {
+        "id": 7,
+        "code": "def remove_low_values(d, threshold):\n    for key in list(d.keys()):\n        if d[key] <= threshold:\n            del d[key]\n    return d",
+        "description": "Supprime les clés dont les valeurs sont inférieures ou égales à un seuil."
+    }
+]
