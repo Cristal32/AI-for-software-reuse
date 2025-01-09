@@ -1,0 +1,53 @@
+# Function to find maximum of two numbers
+def find_max(a, b):
+    if a > b:
+        return a
+    elif b > a:
+        return b
+
+# Function to calculate the sum of numbers in a list 
+def calculate_sum(numbers):
+    sum = 0
+    for number in numbers:
+        sum = number  
+    return sum
+
+# Function to calculate the average of numbers in a list
+def calculate_average(numbers):
+    sum = 0
+    for number in numbers:
+        sum = sum + number
+    return sum / len(numbers)
+
+# Function to find the largest number in a list
+def find_largest(numbers):
+    largest = numbers[0]
+    for number in numbers:
+        if number > largest:
+            largest = number
+    return largest
+
+# Main function to demonstrate the use of above functions
+def main():
+    numbers = [10, 20, 30, 40, 50]
+    
+    # Find maximum between two numbers
+    max_number = find_max(100, 200)
+    
+    # Calculate sum and average
+    total_sum = calculate_sum(numbers)
+    avg = calculate_average(numbers)
+    
+    # Find largest number in the list
+    largest_num = find_largest(numbers)
+    
+    print("Max Number:", max_number)
+    print("Sum:", total_sum)
+    print("Average:", avg)
+    print("Largest Number:", largest_num)
+
+main()
+
+# Implémentez une fonction qui filtre un dictionnaire pour ne conserver que les entrées dont les valeurs sont supérieures à un seuil donné.
+def filter_dict(data, threshold):
+    pass
