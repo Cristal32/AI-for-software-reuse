@@ -34,16 +34,9 @@ def main():
 
     st.header("Refactoriser votre code")
 
-    # Create two columns with custom width ratios
-    col1, col2 = st.columns([3, 3]) 
+    st.subheader("Code Source")
+    original_code = st.text_area("Entrez le code ici:", height=400, key="input_code")
 
-    with col1:
-        st.subheader("Code Source")
-        original_code = st.text_area("Entrez le code ici:", height=400, key="input_code")
-
-    with col2:
-        st.subheader("Code Refactorisé")
-        refactored_code_placeholder = st.empty()
 
     if st.button("Refactoriser"):
         if original_code:
@@ -62,7 +55,7 @@ def main():
                         original_complexity = calculate_code_complexity(original_code)
                         refactored_complexity = calculate_code_complexity(extracted_code)
 
-                        st.subheader("Code refactorisé")
+                        st.subheader("Code Refactorisé")
                         st.code(extracted_code, language='python')
 
                         st.subheader("Taux de réutilisabilité")

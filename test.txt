@@ -48,6 +48,32 @@ def main():
 
 main()
 
+========================================================
+
+def calculer_prix_total(articles):
+    prix_total = 0
+    for article in articles:
+        if article['type'] == 'alimentaire':
+            prix_total += article['prix'] * 1.05  # TVA de 5%
+        elif article['type'] == 'électronique':
+            prix_total += article['prix'] * 1.20  # TVA de 20%
+        elif article['type'] == 'habillement':
+            prix_total += article['prix'] * 1.15  # TVA de 15%
+        else:
+            prix_total += article['prix']
+    return prix_total
+
+articles = [
+    {'nom': 'Pomme', 'type': 'alimentaire', 'prix': 1.0},
+    {'nom': 'Téléphone', 'type': 'électronique', 'prix': 300.0},
+    {'nom': 'T-shirt', 'type': 'habillement', 'prix': 20.0},
+    {'nom': 'Livre', 'type': 'autre', 'prix': 15.0}
+]
+
+print("Prix total :", calculer_prix_total(articles))
+
+============================================================= 
+
 # Implémentez une fonction qui filtre un dictionnaire pour ne conserver que les entrées dont les valeurs sont supérieures à un seuil donné.
 def filter_dict(data, threshold):
     pass
