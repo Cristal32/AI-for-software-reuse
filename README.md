@@ -12,6 +12,8 @@ The goal of this project is to exploit AI in the context of software reuse or co
 ## Table of content
 
 - [Architecture](#architecture)
+    - [Streamlit app](#streamlit-app)
+    - [Auto-completion extension](#auto-completion-extension)
 - [Requirements](#requirements)
 - [How to try out the app](#how-to-try-out-the-app)
 
@@ -24,11 +26,11 @@ The goal of this project is to exploit AI in the context of software reuse or co
     <img width="45%" src="assets/archi_snippet.png" />
 </p>
 
-<!-- ### Auto-completion extension -->
+### Auto-completion extension
 
-<!-- <p align="center">
+<p align="center">
     <img width="70%" src="assets/archi_auto_completion.png" />
-</p> -->
+</p>
 
 ## Requirements
 
