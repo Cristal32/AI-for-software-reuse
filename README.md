@@ -16,6 +16,7 @@ The goal of this project is to exploit AI in the context of software reuse or co
     - [Auto-completion extension](#auto-completion-extension)
 - [Requirements](#requirements)
 - [How to try out the app](#how-to-try-out-the-app)
+- [Contributors](#contributors)
 
 ## Architecture
 
