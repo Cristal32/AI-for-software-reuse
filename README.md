@@ -72,4 +72,4 @@ deactivate
 ## Contributors
 - [@Cristal32](https://github.com/Cristal32)
 - [@lamAz19](https://github.com/lamAz19)
-- [@SalmaElAdes](https://github.com/SalmaElAdes}
+- [@SalmaElAdes](https://github.com/SalmaElAdes)
